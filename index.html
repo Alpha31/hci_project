@@ -10,7 +10,7 @@
 <body>
     <div id="main">
         <div class="overlay">
-            <nav>
+            <nav id="main-nav">
                 <a href="./index.html" class="logo">Jade<span style="color: #FFF">Palace</span></a>
                 <span id="nav-menu">
                     <a class="button small" href="#">About</a>
@@ -66,6 +66,12 @@
             <p>Our website will allow customers to reserve rooms for as long as they desire. The website also provides lots of pictures to give each customer a small preview of what they will experience. Customers are required to reserve to party themes: the website will provide a schedule of each party theme so that customers may plan ahead of time. Finally, our website will show the hotest party themes for customer reccomendation.</p>
         </section>
     </div>
-    
+   
+    <script>
+	var main = document.getElementById("main");
+	var tagline = document.getElementById("tagline");
+	var mainNav = document.getElementById("main-nav");
+	tagline.style.marginTop = (((main.clientHeight - tagline.clientHeight)/2) - mainNav.clientHeight) + "px";
+    </script>
 </body>
 </html>

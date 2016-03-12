@@ -16,8 +16,34 @@ h1, h2, h3, h4, h5, h6 {
 
 .container {
     
-    padding: 1rem;
+    padding: 3rem 2rem;
     color: #000;
+}
+
+.container h2 {
+
+    text-align: center;
+    margin: 0 auto;
+}
+
+.container section {
+
+    margin-bottom: 3rem;
+    padding-bottom: 3rem;
+    border-bottom: 0.1rem solid #000;
+}
+
+.container section:last-of-type {
+
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+}
+
+.container p {
+
+    text-align: justify;
+    margin-bottom: 0;
 }
 
 div.center {
@@ -33,7 +59,7 @@ div.center {
     background-color: rgba(255, 255, 255, 0.7);
     border-radius: 2rem;
     font-size: 1.5rem;
-    transition: background-color 0.5s ease;;
+    transition: background-color 0.2s ease;;
 }
 
 .button:hover {
