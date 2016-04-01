@@ -1,0 +1,86 @@
+body {
+    
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    color: #FFF;
+    margin: 0;
+    font-family: "Work Sans";
+}
+
+h1, h2, h3, h4, h5, h6 {
+    
+    font-family: "Julius Sans One"
+}
+
+.main {
+    
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/bg.jpg");
+    text-align: center;
+}
+
+.overlay {
+    
+    position: relative;
+    display: table;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.info {
+    
+    display: table-cell;
+    vertical-align: middle;
+    padding: 2rem;    
+}
+
+.main h1 {
+    
+    margin: 0;
+    font-size: 4rem;
+}
+
+.main #tagline {
+    
+    font-size: 1.6rem;
+}
+
+.projects {
+    
+    margin-top: 2rem;
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 0.2rem;
+    padding: 1.5rem;
+}
+
+.projects a {
+    
+    display: block;
+    text-decoration: none;
+    color: #000;
+    margin: 1rem auto;
+    font-size: 1.4rem;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+.projects a:hover {
+    
+    color: #FFF;
+}
+
+.projects a:first-of-type {
+    
+    margin-top: 0;
+}
+
+.projects a:last-of-type {
+    
+    margin-bottom: 0;
+}

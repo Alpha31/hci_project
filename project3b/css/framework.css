@@ -1,0 +1,79 @@
+html, body {
+    
+    position: relative;
+    margin: 0;
+    padding: 0;
+    font-family: "Ubuntu";
+    color: #FFF;
+    font-weight: lighter;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    
+    font-family: "Big John";
+    color: #C1A0CB;
+}
+
+.container {
+    
+    padding: 3rem 2rem;
+    color: #000;
+}
+
+.container h2 {
+
+    text-align: center;
+    margin: 0 auto;
+}
+
+.container p {
+
+    font-size: 1.2rem;
+}
+
+.container section {
+
+    margin-bottom: 3rem;
+    padding-bottom: 3rem;
+    border-bottom: 0.1rem solid #000;
+}
+
+.container section:last-of-type {
+
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+}
+
+.container p {
+
+    text-align: justify;
+    margin-bottom: 0;
+}
+
+div.center {
+    
+    margin: auto auto;
+}
+
+.button {
+    
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    color: #000;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 2rem;
+    font-size: 1.5rem;
+    transition: background-color 0.2s ease;;
+}
+
+.button:hover {
+    
+    background-color: #FFF;
+}
+
+.button.small {
+    
+    padding: 0.4rem 0.8rem;
+    font-size: 1rem;
+}
