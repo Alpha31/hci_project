@@ -20,10 +20,11 @@ h1, h2, h3, h4, h5, h6 {
     color: #000;
 }
 
-.container h2 {
+.container h2, .container h1 {
 
     text-align: center;
     margin: 0 auto;
+    margin-bottom: 1rem;
 }
 
 .container p {
