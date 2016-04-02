@@ -1,6 +1,5 @@
 html, body {
     
-    position: relative;
     margin: 0;
     padding: 0;
     font-family: "Ubuntu";
@@ -20,14 +19,23 @@ h1, h2, h3, h4, h5, h6 {
     color: #000;
 }
 
-.container h2, .container h1 {
+.container h1 {
 
     text-align: center;
-    margin: 0 auto;
-    margin-bottom: 1rem;
+    margin: 1.8rem auto 1rem auto;
 }
 
-.container p {
+.container h2 {
+        
+    margin: 1.8rem auto 1rem auto;
+}
+
+.container *:first-child {
+    
+    margin-top: 0;
+}
+
+.container {
 
     font-size: 1.2rem;
 }
