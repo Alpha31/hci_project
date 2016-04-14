@@ -1,0 +1,44 @@
+@media (max-aspect-ratio: 8/5) {
+
+	#main {
+
+		background-size: auto 100%;
+	}
+}
+
+@media (max-width: 600px) {
+
+	#tagline h1 {
+
+		font-size: 3rem;
+	}
+	
+	#tagline p {
+
+		font-size: 1.5rem;
+	}
+
+	.button {
+
+		font-size: 1.3rem;
+	}
+
+	#main-nav {
+
+		padding: 0.5rem;
+		text-align: center;
+	}
+
+	#main-nav .logo {
+
+		float: none;
+		display: inline-block;
+	}
+	
+	#nav-menu {
+
+		float: none;
+		display: block;
+		width: 100%;
+	}
+}

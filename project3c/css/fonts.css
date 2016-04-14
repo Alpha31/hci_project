@@ -1,0 +1,13 @@
+@font-face {
+    font-family: "Ubuntu";
+    src: url(fonts/Ubuntu-Light.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Big John";
+    src: url("fonts/BIG JOHN.otf");
+    font-weight: normal;
+    font-style: normal;
+}
