@@ -4,7 +4,7 @@ body {
     padding: 0;
     margin: 0;
     background-color: #7AC74F;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -92,6 +92,7 @@ header * {
 .container {
     
     background-color: #FFF;
+    text-align: justify;
 }
 
 .container section {
@@ -158,5 +159,30 @@ footer .disclaimer {
 
 .myPhoto {
     
+    border-radius: 0.2rem;
+}
+
+.founders {
+    
+    text-align: center;
+}
+
+.founder {
+    
+    display: inline-block;
+    padding: 0 1rem;
+    margin: 1rem 0;
+    width: 25%;
+}
+
+.founder img {
+    
+    width: 100%;
+}
+
+.founder .image {
+    
+    height: 18vw;
+    overflow: hidden;
     border-radius: 0.2rem;
 }
