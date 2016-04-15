@@ -11,5 +11,5 @@ function changeImage () {
 	imageIndex++;
 	if (imageIndex > x.length) {imageIndex = 1}
 	x[imageIndex-1].style.display = "block";
-	setTimeout(changeImage, 2000);
+	setTimeout(changeImage, 3000);
 }
