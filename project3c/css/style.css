@@ -1,0 +1,69 @@
+body {
+    
+    font-family: "Oswald", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    
+    font-family: "Patua One", cursive;
+}
+
+header {
+    
+    background-color: #7AC74F;   
+    padding: 0.5rem 1rem;
+    clear: both;
+}
+
+header .options {
+    
+    float: right;
+}
+
+header .options a {
+    
+    text-decoration: none;
+    color: #FFF;
+    font-weight: bolder;
+}
+
+header * {
+    
+    display: inline-block;
+    margin: 0;
+}
+
+.main {
+    
+    background-color: #7AC74F;    
+    text-align: center;
+    padding: 2rem;
+}
+
+.main *:first-child {
+    
+    margin-top: 0;
+}
+
+.main *:last-child {
+    
+    margin-bottom: 0;
+}
+
+.container section {
+    
+    padding: 1rem 2rem;
+    background-color: #FFF;
+}
+
+.container section:nth-child(even) {
+    
+    background-color: #EEE;
+}
+
+.container section *:first-child {
+    
+    margin-top: 0;
+}
