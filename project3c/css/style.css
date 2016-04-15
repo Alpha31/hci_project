@@ -1,18 +1,27 @@
 body {
     
-    font-family: "Oswald", sans-serif;
+    font-family: "Cabin", sans-serif;
     padding: 0;
     margin: 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
     
-    font-family: "Patua One", cursive;
+    font-family: "Raleway", cursive;
+    text-transform: uppercase;
+}
+
+a {
+    
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    transition: all 0.2s;
 }
 
 header {
     
-    background-color: #7AC74F;   
+    background-color: #7AC74F; 
+    color: #FFF;
     padding: 0.5rem 1rem;
     clear: both;
 }
@@ -24,9 +33,20 @@ header .options {
 
 header .options a {
     
+    font-size: 1.2rem;
+}
+
+header a {
+    
     text-decoration: none;
     color: #FFF;
     font-weight: bolder;
+    margin: 0 0.6rem;
+}
+
+header a:hover {
+
+    color: #000;
 }
 
 header * {
@@ -37,9 +57,10 @@ header * {
 
 .main {
     
-    background-color: #7AC74F;    
+    background-color: #7AC74F; 
+    color: #FFF;   
     text-align: center;
-    padding: 2rem;
+    padding: 4rem;
 }
 
 .main *:first-child {
@@ -54,7 +75,7 @@ header * {
 
 .container section {
     
-    padding: 1rem 2rem;
+    padding: 2rem 8rem;
     background-color: #FFF;
 }
 
