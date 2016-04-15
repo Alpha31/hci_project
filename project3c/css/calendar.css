@@ -1,5 +1,12 @@
-body{
-	font-family: Tahoma;
+section {
+    
+    padding: 2rem !important;
+    overflow: auto;
+}
+
+section h1 {
+    
+    margin-bottom: 1rem !important;
 }
 
 #calendar{
@@ -26,7 +33,7 @@ body{
 	padding: 5px;
 	box-sizing: border-box;
 	border: 1px solid #ccc;
-	margin-right:- 1px;
+	margin-right: -1px;
 	margin-bottom: -1px;
 }
 
@@ -60,7 +67,7 @@ body{
 		background: #333;
 		color: #fff;
 		width: 25px;
-		border-radius: 50%;
+		border-radius: 100%;
 		float: right;
 }
 

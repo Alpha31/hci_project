@@ -3,11 +3,13 @@ body {
     font-family: "Cabin", sans-serif;
     padding: 0;
     margin: 0;
+    background-color: #7AC74F;
+    font-size: 1.1rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
     
-    font-family: "Raleway", cursive;
+    font-family: "Raleway", sans-serif;
     text-transform: uppercase;
 }
 
@@ -20,7 +22,6 @@ a {
 
 header {
     
-    background-color: #7AC74F; 
     color: #FFF;
     padding: 0.5rem 1rem;
     clear: both;
@@ -57,25 +58,45 @@ header * {
 
 .main {
     
-    background-color: #7AC74F; 
     color: #FFF;   
     text-align: center;
     padding: 4rem;
 }
 
-.main *:first-child {
+.main>*:first-child {
     
     margin-top: 0;
 }
 
-.main *:last-child {
+.main>*:last-child {
     
     margin-bottom: 0;
 }
 
+.main h1 {
+    
+    font-size: 2.5rem;
+}
+
+.main p {
+    
+    font-size: 1.2rem;
+    color: #D4EDC5;
+}
+
+.main>* {
+    
+    margin: 1rem;
+}
+
+.container {
+    
+    background-color: #FFF;
+}
+
 .container section {
     
-    padding: 2rem 8rem;
+    padding: 3rem 8rem;
     background-color: #FFF;
 }
 
@@ -87,4 +108,55 @@ header * {
 .container section *:first-child {
     
     margin-top: 0;
+}
+
+.container section *:last-child {
+    
+    margin-bottom: 0;
+}
+
+footer {
+    
+    text-align: center;
+    color: #FFF;
+    padding: 1rem 4rem;;
+}
+
+footer * {
+    
+    margin: 0.5rem 0;
+}
+
+footer a {
+    
+    text-decoration: none;
+    color: #FFF;
+}
+
+footer .disclaimer {
+    
+    color: #D4EDC5;
+}
+
+.button {
+    
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    font-family: "Raleway";
+    font-size: 1.2rem;
+    background-color: #000;
+    border-radius: 0.2rem;
+    text-decoration: none;
+    color: #FFF;
+    text-transform: uppercase;
+}
+
+.button:hover {
+
+    background-color: #444;
+}
+
+.myPhoto {
+    
+    border-radius: 0.2rem;
 }
