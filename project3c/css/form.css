@@ -29,7 +29,7 @@ select {
     font-family: "Cabin";
 }
 
-input[type="text"] {
+input[type="text"], input[type="date"], textarea {
     
     width: 100%;
     font-size: 1rem;
@@ -42,20 +42,9 @@ input[type="text"] {
     box-sizing: border-box;
 }
 
-input[type="date"] {
-
-    width: 100%;
-    font-size: 1rem;
-    font-family: "Cabin";
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    -ms-box-sizing: border-box;
-    -o-box-sizing: border-box;
-    box-sizing: border-box;
-}
-
-input[type="button"] {
+input[type="submit"] {
     
+    cursor: pointer;
     display: inline-block;
     padding: 0.5rem 1rem;
     font-family: "Raleway";
@@ -68,7 +57,12 @@ input[type="button"] {
     border: solid #000 0;
 }
 
-input[type="button"]:hover {
+textarea {
+    
+    height: 8rem;
+}
+
+input[type="submit"]:hover {
 
     background-color: #444;
 }

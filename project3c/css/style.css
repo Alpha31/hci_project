@@ -13,7 +13,7 @@ h1, h2, h3, h4, h5, h6 {
     text-transform: uppercase;
 }
 
-a, input[type="button"] {
+a, input[type="submit"] {
     
     -webkit-transition: all 0.2s;
     -moz-transition: all 0.2s;
