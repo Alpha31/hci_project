@@ -55,3 +55,6 @@ input.button:hover {
 textarea:focus, input:focus {
   border: 1px solid #09C;
 }
+select {
+  margin: 10px;
+}
