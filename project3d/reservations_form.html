@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JadePalace</title>
+    <link href='https://fonts.googleapis.com/css?family=Raleway:700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Cabin:400,400italic,600' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/form.css">
+</head>
+<body>
+    <header>
+        <h2><a href="index.html">JadePalace</a></h2>
+        <div class="options">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="schedule.html">Schedule</a>
+            <a href="reservations.html">Reservations</a>
+            <a href="album.html">Album</a>
+        </div>
+    </header>
+    
+    <div class="main">
+        <h1>Reservations</h1>
+    </div>
+    
+    <div class="container">
+        <section>
+            <h2>Reservation Form</h2>            
+            <form action="reservations_complete.html">
+                <div class="form-group">
+                    <label>Packages - Size Of Party - Days</label>
+                    <div class="options-group">
+                        <select  name="Package">
+                            <option  value="Silver">Silver</option>
+                            <option  value="Gold">Gold</option>
+                            <option  value="Platinum">Platinum</option>
+                        </select>
+                        <select  name="Party">
+                            <option  value="1">1</option>
+                            <option  value="2">2</option>
+                            <option  value="3">3</option>
+                            <option  value="4">4</option>
+                            <option  value="5">5</option>
+                            <option  value="6">6</option>
+                            <option  value="7">7</option>
+                            <option  value="8">8</option>
+                        </select>
+                        <select  name="Days">
+                            <option  value="1">1</option>
+                            <option  value="2">2</option>
+                            <option  value="3">3</option>
+                            <option  value="4">4</option>
+                            <option  value="5">5</option>
+                            <option  value="6">6</option>
+                            <option  value="7">7</option>
+                        </select>
+                    </div>
+                </div>
+                        
+                <div class="form-group">
+                    <label for="name">Reserver's Name</label>
+                    <input id="name" name="name" type="text">
+                    <label for="email">Email Address</label>
+                    <input id="email" name="email" type="text">
+                    <label for="date">Date</label>
+                    <input id="date" name="date" type="date">
+                    <label for="payment">Credit Card</label>
+                    <input id="payment" name="payment" type="text">
+                    <div class="button-wrapper">
+                        <input  value="Submit"  type="submit">                        
+                    </div>
+                </div>
+            </form>
+        </section>
+    </div>
+    
+    <footer>
+        <a href="../index.html" class="profile">Alpha31</a> — CSC 4720
+        <p class="disclaimer">
+            The multimedia used in this website does not belong to the Alpha31 Team, and it is not affiliated with the HCI class or GSU in any way.
+        </p>
+    </footer>
+</body>
+</html>

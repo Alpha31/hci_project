@@ -1,0 +1,188 @@
+body {
+    
+    font-family: "Cabin", sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #7AC74F;
+    font-size: 1.2rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+}
+
+a, input[type="submit"] {
+    
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+header {
+    
+    color: #FFF;
+    padding: 0.5rem 1rem;
+    clear: both;
+}
+
+header .options {
+    
+    float: right;
+}
+
+header .options a {
+    
+    font-size: 1.2rem;
+}
+
+header a {
+    
+    text-decoration: none;
+    color: #FFF;
+    font-weight: bolder;
+    margin: 0 0.6rem;
+}
+
+header a:hover {
+
+    color: #000;
+}
+
+header * {
+    
+    display: inline-block;
+    margin: 0;
+}
+
+.main {
+    
+    color: #FFF;   
+    text-align: center;
+    padding: 4rem;
+}
+
+.main>*:first-child {
+    
+    margin-top: 0;
+}
+
+.main>*:last-child {
+    
+    margin-bottom: 0;
+}
+
+.main h1 {
+    
+    font-size: 2.5rem;
+}
+
+.main p {
+    
+    font-size: 1.2rem;
+    color: #D4EDC5;
+}
+
+.main>* {
+    
+    margin: 1rem;
+}
+
+.container {
+    
+    background-color: #FFF;
+    text-align: justify;
+}
+
+.container section {
+    
+    padding: 3rem 8rem;
+    background-color: #FFF;
+}
+
+.container section:nth-child(even) {
+    
+    background-color: #EEE;
+}
+
+.container section *:first-child {
+    
+    margin-top: 0;
+}
+
+.container section *:last-child {
+    
+    margin-bottom: 0;
+}
+
+footer {
+    
+    text-align: center;
+    color: #FFF;
+    padding: 1rem 4rem;;
+}
+
+footer * {
+    
+    margin: 0.5rem 0;
+}
+
+footer a {
+    
+    text-decoration: none;
+    color: #FFF;
+}
+
+footer .disclaimer {
+    
+    color: #D4EDC5;
+}
+
+.button {
+    
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    font-family: "Raleway";
+    font-size: 1.2rem;
+    background-color: #000;
+    border-radius: 0.2rem;
+    text-decoration: none;
+    color: #FFF;
+    text-transform: uppercase;
+}
+
+.button:hover {
+
+    background-color: #444;
+}
+
+.myPhoto {
+    
+    border-radius: 0.2rem;
+}
+
+.founders {
+    
+    text-align: center;
+}
+
+.founder {
+    
+    display: inline-block;
+    padding: 0 1rem;
+    margin: 1rem 0;
+    width: 25%;
+}
+
+.founder img {
+    
+    width: 100%;
+}
+
+.founder .image {
+    
+    height: 18vw;
+    overflow: hidden;
+    border-radius: 0.2rem;
+}
