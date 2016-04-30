@@ -9,7 +9,19 @@
     border: solid #000 0.2rem;
     border-radius: 0.2rem;
     padding: 1rem 2rem;
+    padding-top: 2rem;
     margin: 1rem 0;
+}
+
+.form-item {
+    
+    padding: 0 0.5rem;
+    box-sizing: border-box;
+}
+
+.form-item input {
+    
+    margin-top: 0.2rem;
 }
 
 .options-group>* {
@@ -65,4 +77,15 @@ textarea {
 input[type="submit"]:hover {
 
     background-color: #444;
+}
+
+.options-group>.option-wrapper {
+    
+    padding: 0 1rem;
+    box-sizing: border-box;
+}
+
+.options-group>.option-wrapper>* {
+    
+    width: 100%;
 }

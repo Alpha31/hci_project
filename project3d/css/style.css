@@ -3,7 +3,7 @@ body {
     font-family: "Cabin", sans-serif;
     padding: 0;
     margin: 0;
-    background-color: #7AC74F;
+    background-color: #0f7703;
     font-size: 1.2rem;
 }
 
@@ -23,7 +23,8 @@ a, input[type="submit"] {
 header {
     
     color: #FFF;
-    padding: 0.5rem 1rem;
+    padding: 1rem 1rem;
+    text-align: left;
     clear: both;
 }
 
@@ -50,6 +51,11 @@ header a:hover {
     color: #000;
 }
 
+.index header a:hover {
+
+    color: #AAA;
+}
+
 header * {
     
     display: inline-block;
@@ -59,8 +65,28 @@ header * {
 .main {
     
     color: #FFF;   
-    text-align: center;
-    padding: 4rem;
+    text-align: center;    
+    padding: 4rem;    
+}
+
+.index.main {
+    
+    background-image: url("images/bg.jpg");
+    background-position: bottom;
+    background-size: 100% auto;   
+    padding: 0;
+}
+
+.index.main .overlay {
+    
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.main .info {
+    
+    clear: both;    
+    padding: 10rem;    
 }
 
 .main>*:first-child {
@@ -81,7 +107,7 @@ header * {
 .main p {
     
     font-size: 1.2rem;
-    color: #D4EDC5;
+    color: #88bf86;
 }
 
 .main>* {
@@ -136,7 +162,7 @@ footer a {
 
 footer .disclaimer {
     
-    color: #D4EDC5;
+    color: #88bf86;
 }
 
 .button {
@@ -185,4 +211,36 @@ footer .disclaimer {
     height: 18vw;
     overflow: hidden;
     border-radius: 0.2rem;
+}
+
+.cols>* {
+    
+    width: 100%;
+}
+
+.col {
+
+    display: inline-block !important;
+    text-align: left;
+    width: 100%;
+}
+
+.one-half.col {
+    
+    width: 49.5%;
+}
+
+.one-third.col {
+    
+    width: 32%;
+}
+
+.center.container>section {
+    
+    text-align: center;
+}
+
+.center.container form {
+    
+    text-align: left;
 }
